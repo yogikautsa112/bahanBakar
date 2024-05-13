@@ -35,7 +35,7 @@
             <div class="card-body" id="result">
                 <?php
                 class Shell {
-                    private $harga;
+                private $harga;
                 private $ppn = 0.10;
                 public function __construct($harga) {
                     $this->harga = $harga;
