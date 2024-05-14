@@ -69,7 +69,7 @@
         
                 public function getReceipt() {
                         $total = $this->calculateTotal();
-                        return "Anda membeli bahan bakar minyak tipe $this->tipe dengan jumlah $this->liter Liter. Total yang harus anda bayar Rp. " . number_format($total, 2, '.', ',');
+                        return "Anda membeli bahan bakar minyak tipe $this->tipe dengan jumlah $this->liter Liter. Total yang harus anda bayar Rp. " . number_format($total, 2, ',', '.');
                     }
                 }
         
