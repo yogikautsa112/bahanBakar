@@ -36,7 +36,7 @@
                 <?php
                 class Shell {
                 private $harga;
-                private $ppn = 0.10;
+                private $ppn = 0.1;
                 public function __construct($harga) {
                     $this->harga = $harga;
                 }
