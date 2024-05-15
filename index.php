@@ -88,7 +88,6 @@
                     $receipt = $beli->getReceipt();
                     echo "<p id='result'>$receipt</p>";
                 }
-        
                 ?>
             </div>
         </div>
